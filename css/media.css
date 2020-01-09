@@ -1,0 +1,311 @@
+@media (max-width: 1199.98px ) {
+    .address {
+        position: relative;
+        margin-right: 60px;
+    }
+
+    .mouse {
+        margin-top: 110px;
+    }
+
+    .background {
+        left: 233px;
+    }
+}
+
+
+@media (max-width: 991.98px ) {
+    .mobile-btn {
+        display: flex;
+        position: fixed;
+        right: 30px;
+        z-index: 11;
+    }
+
+    .menu {
+        display: none;
+    }
+    .menu .menu-list-item {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .show-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background: #222222;
+        z-index: 9;
+    }
+
+    .address {
+        margin-right: 0;
+    }
+
+    .address svg {
+        display: none;
+    }
+
+    .address:before {
+        display: none;
+    }
+
+    .hero-content {
+        width: 740px;
+    }
+
+    .top-title {
+        font-size: 55px;
+        line-height: 55px;
+    }
+
+    .mouse {
+        margin-top: 140px;
+    }
+
+    #europe {
+        margin-top: 120px;
+    }
+
+    .trucking {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .button {
+        width: 175px;
+        height: 45px;
+        margin: 30px 0 60px 0;
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .owl-prev {
+        right: 190px;
+    }
+
+    .owl-prev {
+        top: 270px;
+    }
+
+    .owl-next {
+        right: 70px;
+    }
+
+    .owl-next {
+        top: -10px;
+    }
+
+    .title-two {
+        padding: 46px 0 30px 0;
+        font-size: 40px;
+        line-height: 49px;
+    }
+
+    .lorem-description {
+        padding-bottom: 35px;
+    }
+
+    .background {
+        top: -39px;
+        left: 343px;
+    }
+
+    #maps {
+        margin-top: 150px;
+    }
+    .footer-left {
+        padding: 0 0 7px;
+    }
+}
+
+
+@media (max-width: 767.98px ) {
+    .address {
+        margin-right: 0;
+    }
+    .menu .menu-list-item {
+        text-align: center;
+    }
+
+    .hero-content {
+        width: 560px;
+        height: 200px;
+    }
+
+    .top-title {
+        font-size: 43px;
+        line-height: 15px;
+    }
+
+    .mouse {
+        margin-top: 120px;
+    }
+
+    .trucking {
+        font-size: 35px;
+        line-height: 35px;
+        letter-spacing: 0.05em;
+    }
+
+    .trucking-description {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .button {
+        width: 170px;
+        height: 50px;
+        margin: 15px 0 50px 0;
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .title {
+        padding: 30px 0 40px 0;
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    #about-company {
+        margin-top: 165px;
+    }
+
+    .title-two {
+        padding: 30px 0;
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    .lorem-description {
+        font-size: 15px;
+        line-height: 23px;
+        margin-bottom: 20px;
+    }
+
+    .quantity {
+        margin: auto;
+        width: 350px;
+    }
+
+    .background {
+        width: 376px;
+        top: -45px;
+        left: 200px;
+    }
+
+    #maps {
+        margin-top: 110px;
+    }
+    .footer-left {
+        padding: 0 0 10px;
+    }
+}
+
+
+@media (max-width: 575.98px ) {
+    .address {
+        margin-right: 0;
+    }
+    .menu .menu-list-item {
+        text-align: center;
+    }
+
+    .hero-content {
+        width: 300px;
+        height: 180px;
+        padding-top: 25px;
+    }
+
+    .top-title {
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .text-description {
+        font-size: 14px;
+        line-height: 19px;
+        padding-top: 5px;
+    }
+
+    .trucking {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .trucking-description {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .button {
+        width: 150px;
+        height: 40px;
+        margin-top: 25px;
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+
+    .title {
+        padding-top: 25px;
+        font-size: 30px;
+        line-height: 30px;
+        padding-bottom: 30px;
+    }
+
+    .owl-prev, .owl-next {
+        top: 290px;
+    }
+
+    .owl-prev {
+        left: 22px;
+    }
+
+    .box {
+        margin: auto;
+        width: 300px;
+    }
+
+    #about-company {
+        position: relative;
+        margin-top: 80px;
+    }
+
+    .title-two {
+        padding-top: 31px;
+        font-size: 30px;
+        line-height: 30px;
+        padding-bottom: 15px;
+    }
+
+    .background {
+        width: 194px;
+        top: -30px;
+        left: 126px;
+    }
+
+    .lorem-description {
+        margin-bottom: 25px;
+    }
+
+    .quantity {
+        margin: auto;
+        width: 200px;
+    }
+
+    #maps {
+        margin-top: 70px;
+    }
+    .footer-left {
+        text-align: center;
+        padding: 4px 0 10px;
+    }
+}

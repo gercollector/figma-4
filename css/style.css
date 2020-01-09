@@ -1,0 +1,419 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    background: #2F343A;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+a {
+    color: #ffffff;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*########################## HEADER ###############################*/
+header {
+    background: #C8A35F;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    font-size: 12px;
+    line-height: 14px;
+}
+.languages .languages-list-item {
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.number-phone .phone {
+    display: inline-block;
+}
+.e-mail .mail {
+    display: inline-block;
+}
+/*########################## HEADER ###############################*/
+
+/*########################### MENU ################################*/
+
+#menu {
+    background: #2F343A;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+}
+
+.address {
+    position: relative;
+    margin-right: 200px;
+}
+
+.address:before {
+    content: '';
+    position: absolute;
+    width: 46px;
+    border: 1px solid #F2F2F2;
+    transform: rotate(90deg);
+    top: 11px;
+    left: -60px;
+
+}
+
+.address svg {
+    margin-right: 13px;
+}
+
+.menu {
+    margin: 0;
+}
+
+.menu .menu-list-item {
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.mobile-btn {
+    width: 45px;
+    height: 40px;
+    align-items: center;
+    display: none;
+}
+
+.mobile-btn span {
+    display: inline-block;
+    width: 100%;
+    height: 3px;
+    background: #C8A35F;
+    position: relative;
+    z-index: 10;
+}
+
+.mobile-btn span:before, .mobile-btn span:after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: #C8A35F;
+    transition: .2s;
+}
+
+.show span {
+    background: transparent;
+}
+
+.mobile-btn span:before {
+    transform: translateY(-10px);
+}
+
+.mobile-btn span:after {
+    transform: translateY(10px);
+}
+
+.show span:before {
+    transform: translateY(0) rotate(-45deg);
+}
+
+.show span:after {
+    transform: translateY(0) rotate(45deg);
+}
+
+/*########################### MENU ################################*/
+
+/*########################### HERO #################################*/
+
+#hero {
+    background: linear-gradient(0deg, rgba(47, 52, 58, 0.75), rgba(47, 52, 58, 0.75)), url("../images/trucking.jpg") no-repeat center;
+    height: 100vh;
+    padding-top: 155px;
+    background-size: cover;
+}
+
+.hero-content {
+    width: 920px;
+    height: 245px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid #C8A35F;
+    padding-top: 45px;
+}
+
+.top-title {
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.text-description {
+    font-size: 18px;
+    line-height: 28px;
+    padding-top: 25px;
+}
+
+.mouse {
+    margin-top: 185px;
+}
+
+/*########################### HERO #################################*/
+
+/*############################ EUROPE ################################*/
+
+#europe {
+    margin-top: 166px;
+}
+#europe .container {
+    position: relative;
+}
+.trucking {
+    position: relative;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+.trucking:before {
+    content: '';
+    position: absolute;
+    width: 90px;
+    height: 6px;
+    top: -40px;
+    left: 0;
+    background: #C8A35F;
+}
+.trucking-description {
+    font-size: 18px;
+    line-height: 28px;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 55px;
+    margin-top: 68px;
+    background: #C8A35F;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+#europe img {
+    width: 445px;
+    height: 266px;
+}
+.owl-next {
+    position: absolute;
+    content: "";
+    width: 65px;
+    height: 0;
+    top: -20px;
+}
+.owl-prev {
+    position: absolute;
+    content: "назад";
+    width: 65px;
+    height: 0;
+    top: 270px;
+}
+
+.owl-prev {
+    border: 3px solid #C8A35F !important;
+    transform: rotate(-180deg);
+    right: 90px;
+}
+
+.owl-next {
+    border: 3px solid #C8A35F !important;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    right: 22px;
+}
+/*############################ EUROPE ################################*/
+
+/*############################ SERVICES ##############################*/
+#services {
+    margin-top: 120px;
+}
+
+.title {
+    position: relative;
+    padding-top: 46px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding-bottom: 60px;
+}
+
+.title:before {
+    content: '';
+    position: absolute;
+    width: 90px;
+    height: 6px;
+    top: 0;
+    background: #C8A35F;
+}
+
+#services .col-lg-3 {
+    padding-right: 1px;
+    padding-left: 1px;
+}
+
+.box {
+    text-align: center;
+    background: #393F47;
+    transition: 0.3s;
+}
+
+.box:hover {
+    background: #C8A35F;
+}
+
+.box a svg {
+    margin-top: 55px;
+    transition: 0.2s;
+}
+
+#services .air {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 43px 0 35px;
+}
+
+/*############################ SERVICES ##############################*/
+
+/*############################# ABOUT COMPANY ##########################*/
+
+#about-company {
+    position: relative;
+    margin-top: 200px;
+}
+
+
+.background {
+    position: absolute;
+    width: 410px;
+    height: 482px;
+    top: -65px;
+    left: 468px;
+    background: #393F47;
+}
+
+.title-two {
+    position: relative;
+    padding-top: 46px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.title-two:before {
+    content: '';
+    position: absolute;
+    width: 90px;
+    height: 6px;
+    top: 0;
+    background: #C8A35F;
+}
+
+.lorem-description {
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.quantity {
+    text-align: center;
+    background: #ffffff;
+    height: 160px;
+}
+
+.numbers {
+    color: #2F343A;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding-top: 23px;
+}
+
+.description-numbers {
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-top: -10px;
+}
+
+.description-place {
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    padding-top: 10px;
+}
+
+/*############################# ABOUT COMPANY ##########################*/
+
+/*############################ MAPS #####################################*/
+
+#maps {
+    height: 450px;
+    margin-top: 202px;
+}
+
+/*############################ MAPS #####################################*/
+
+/*############################# FOOTER ####################################*/
+
+footer {
+    background: #C8A35F;
+    font-size: 14px;
+    line-height: 16px;
+}
+.footer-left {
+    padding: 65px 0 60px;
+}
+.footer-left p {
+    padding-bottom: 10px;
+}
+#contacts .footer-left a {
+    color: #2F343A;
+}
+.admin {
+    padding-top: 26px;
+    color: #2F343A;
+    text-decoration: underline;
+}
+/*############################# FOOTER ####################################*/
