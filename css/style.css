@@ -227,6 +227,11 @@ nav {
     width: 445px;
     height: 266px;
 }
+
+.owl-next, .owl-prev {
+    background: #c8a35f !important;
+}
+
 .owl-next {
     position: absolute;
     content: "";
